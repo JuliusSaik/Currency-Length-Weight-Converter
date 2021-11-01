@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color" />
+        <attr name="darkerbackgroundcolor" format="color" />
+        <attr name="textcolor" format="color" />
+        <attr name="bottombaricon" format="color" />
+        <attr name="bttnstartcolor" format="color" />
+        <attr name="bttnendcolor" format="color" />
+        <attr name="headertext" format="color" />
+    </declare-styleable>
+</resources>

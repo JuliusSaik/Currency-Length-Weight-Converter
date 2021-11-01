@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <!-- Base application theme. -->
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextColor">#ffff</item>
+        <item name="backgroundcolor">@color/colorPrimary</item>
+        <item name="textcolor">#FFFF</item>
+        <item name="darkerbackgroundcolor">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="bottombaricon">@color/colorPurple</item>
+        <item name="bttnstartcolor">@color/colorPurple</item>
+        <item name="bttnendcolor">@color/colorBlue</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="headertext">@color/colorBlue</item>
+        <item name="android:windowAnimationStyle">@style/ThemeAnimationTransition</item>
+
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextColor">#262626</item>
+        <item name="backgroundcolor">#FFFF</item>
+        <item name="textcolor">#262626</item>
+        <item name="darkerbackgroundcolor">#efefef</item>
+        <item name="android:statusBarColor">#efefef</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="bottombaricon">@color/colorPurple</item>
+        <item name="bttnstartcolor">@color/colorPurple</item>
+        <item name="bttnendcolor">@color/colorBlue</item>
+        <item name="android:navigationBarColor">#efefef</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="headertext">@color/colorBlue</item>
+        <item name="android:windowAnimationStyle">@style/ThemeAnimationTransition</item>
+
+    </style>
+
+    <style name="AppThemeDarkMint" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextColor">#ffff</item>
+        <item name="backgroundcolor">#011627</item>
+        <item name="textcolor">@color/colorAccent</item>
+        <item name="darkerbackgroundcolor">#2ec4b6</item>
+        <item name="android:statusBarColor">#2ec4b6</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="bottombaricon">#FFFF</item>
+        <item name="bttnstartcolor">#2ec4b6</item>
+        <item name="bttnendcolor">#2ab3a6</item>
+        <item name="android:navigationBarColor">#02c39a</item>
+        <item name="headertext">#2ab3a6</item>
+        <item name="android:windowAnimationStyle">@style/ThemeAnimationTransition</item>
+
+    </style>
+
+    <style name="AppThemeMinimal" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextColor">#ffff</item>
+        <item name="backgroundcolor">#1B1D28</item>
+        <item name="textcolor">#FFFF</item>
+        <item name="darkerbackgroundcolor">#171821</item>
+        <item name="android:statusBarColor">#171821</item>
+        <item name="bottombaricon">#FFFF</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="bttnstartcolor">#171821</item>
+        <item name="bttnendcolor">#171821</item>
+        <item name="android:navigationBarColor">#171821</item>
+        <item name="headertext">#FFFF</item>
+        <item name="android:windowAnimationStyle">@style/ThemeAnimationTransition</item>
+
+    </style>
+
+
+    <style name="ThemeAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

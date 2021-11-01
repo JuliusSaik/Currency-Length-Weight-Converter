@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuTemp"
+        android:icon="@drawable/tempicon"
+        android:title="Temperature"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuCurr"
+        android:icon="@drawable/ic_action_name"
+        android:title="Currency"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuMeasur"
+        android:icon="@drawable/measurmenticon"
+        android:title="Measurement"
+        app:showAsAction="ifRoom" />
+</menu>

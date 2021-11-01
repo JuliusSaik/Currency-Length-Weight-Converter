@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".CurrencyFragment">
+
+
+    <Button
+        android:id="@+id/bttnConvert"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/buttonstyle"
+        android:elevation="15dp"
+        android:fontFamily="@font/cabin_medium2"
+        android:text="Convert"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/baseCurrency"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="198dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/cabin_medium2"
+        android:hint="Insert value"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/textcolor"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/ivCardsMint"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/currencycardsmint" />
+
+    <ImageView
+        android:id="@+id/ivCardsLight"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/currencycardslight" />
+
+    <ImageView
+        android:id="@+id/ivCardsRegular"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/currencycards" />
+
+    <ImageView
+        android:id="@+id/ivCardsMinimal"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/currencycardsminimal" />
+
+    <TextView
+        android:id="@+id/spinnerToCurrency"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="295dp"
+        android:clickable="true"
+        android:dropDownWidth="90dp"
+        android:fontFamily="@font/cabin"
+        android:hint="@string/select_currency"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/textcolor"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tvCurrencyValue"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/cabin_medium2"
+        android:hint="Converted value"
+        android:scrollbars="horizontal"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/textcolor"
+
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/spinnerBaseCurrency"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="160dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:hint="@string/select_currency"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/textcolor"
+        android:textSize="20sp" />
+
+
+</FrameLayout>

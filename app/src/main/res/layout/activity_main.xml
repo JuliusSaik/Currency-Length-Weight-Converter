@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavBar"
+        android:background="?attr/backgroundcolor" />
+
+    <FrameLayout
+        android:id="@+id/topNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false">
+
+
+        <ImageView
+            android:id="@+id/ivSettingsBttn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/ivSettingsBttnWhite"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/settingsminimal" />
+
+        <TextView
+            android:id="@+id/fragmentConvyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/roboto"
+            android:text="Currency Convy"
+            android:textColor="?attr/textcolor"
+            android:textSize="28sp" />
+
+        <View
+            android:id="@+id/viewUpTop"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+
+            android:background="@drawable/rectangle" />
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8365897931941523/1713339409"></com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/backgroundcolor"
+        app:backgroundTint="?attr/darkerbackgroundcolor"
+        app:itemIconTint="?attr/bottombaricon"
+        app:itemTextColor="?attr/textcolor"
+        app:menu="@menu/bottom_navbar">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

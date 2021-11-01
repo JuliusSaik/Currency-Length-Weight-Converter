@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SettingsActivity">
+
+
+    <ImageView
+        android:id="@+id/ivBackArrowSettings"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start|center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/tvPressDevInsta"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleX="-1"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/tvPressFeatureSuggest"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleX="-1"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/tvReportBug"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleX="-1"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/ivRateApp"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleX="-1"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <TextView
+        android:id="@+id/tvSettingsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Settings"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvAboutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="About"
+        android:textColor="@color/colorBlue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvVersionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/roboto"
+        android:text="Version 1.2"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPressDevInstatxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/roboto"
+        android:text="Developer"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Feedback"
+        android:textColor="@color/colorBlue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvPressFeatureSuggesttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/roboto"
+        android:text="Suggest a feature"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvReportBugText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/roboto"
+        android:text="Report a bug"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvRateApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/roboto"
+        android:text="Give a rating"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/AboutLine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/line_top_bar_main_activity" />
+
+    <View
+        android:id="@+id/BottomThemeLine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/line_top_bar_main_activity" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settingsAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="ca-app-pub-8365897931941523/1713339409"></com.google.android.gms.ads.AdView>
+
+</FrameLayout>

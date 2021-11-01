@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".SettingsActivity">
+
+
+    <ImageView
+        android:id="@+id/ivBackArrowSettings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start|center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/ivBackArrowWhite"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start|center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:srcCompat="@drawable/back_arrowwhite" />
+
+    <ImageView
+        android:id="@+id/instaicon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/instaiconlight"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/instablack" />
+
+    <ImageView
+        android:id="@+id/feature"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/suggestfeature" />
+
+    <ImageView
+        android:id="@+id/featurelight"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="280dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/suggestfeatureblack" />
+
+    <ImageView
+        android:id="@+id/bug"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@drawable/bugreport" />
+
+    <ImageView
+        android:id="@+id/buglight"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/bugreportblack" />
+
+    <ImageView
+        android:id="@+id/ratingstar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/ratingstarlight"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/starblack" />
+
+    <ImageView
+        android:id="@+id/themes"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/paint" />
+
+    <ImageView
+        android:id="@+id/themeslight"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/paintblack" />
+
+    <TextView
+        android:id="@+id/tvSettingsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Settings"
+        android:textColor="?attr/textcolor"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvAboutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/montserrat"
+        android:text="About"
+        android:textColor="?attr/headertext"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvVersionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/cabin"
+        android:text="Version 1.3"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPressDevInsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="180dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:text="Developer"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Feedback"
+        android:textColor="?attr/headertext"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPressFeatureSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="280dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:text="Suggest a feature"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvReportBug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="320dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:text="Report a bug"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvRateApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="360dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:text="Give a rating"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCustomiziation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Customization"
+        android:textColor="?attr/headertext"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvThemes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="460dp"
+        android:clickable="true"
+        android:fontFamily="@font/cabin"
+        android:text="Select theme"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/AboutLine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/line_top_bar_main_activity" />
+
+    <View
+        android:id="@+id/BottomThemeLine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/line_top_bar_main_activity" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settingsAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8365897931941523/1713339409"></com.google.android.gms.ads.AdView>
+
+</FrameLayout>

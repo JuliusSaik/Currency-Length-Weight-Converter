@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".CurrencyFragment">
+
+
+    <Button
+        android:id="@+id/bttnConvert"
+        android:layout_width="480dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="295dp"
+        android:background="@drawable/buttonstyle"
+        android:fontFamily="@font/roboto"
+        android:text="Convert"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/baseCurrency"
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="340dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="Insert value"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="56sp" />
+
+    <ImageView
+        android:id="@+id/ivCardsRegular"
+        android:layout_width="700dp"
+        android:layout_height="700dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="115dp"
+        app:srcCompat="@drawable/currencycards" />
+
+    <TextView
+        android:id="@+id/spinnerToCurrency"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="520dp"
+        android:clickable="true"
+        android:dropDownWidth="320dp"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/select_currency"
+
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="42sp" />
+
+
+    <TextView
+        android:id="@+id/tvCurrencyValue"
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="592dp"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="Converted value"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+
+        android:textSize="56dp" />
+
+    <TextView
+        android:id="@+id/spinnerBaseCurrency"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="260dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto"
+
+        android:hint="@string/select_currency"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="42sp" />
+
+
+</FrameLayout>
